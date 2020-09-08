@@ -4,6 +4,7 @@
 }
 
 .menu {
+  color: purple;
   padding: 0;
   list-style-type: none;
   margin: 0 auto;
@@ -24,16 +25,15 @@
 }
 
 .submenu {
-  /* text-align: center; */
   list-style-type: none;
   position: absolute;
   padding: 0;
   border: 2px solid purple;
   background-color: rgb(218, 84, 218);
   cursor: pointer;
-  width: 101%;
-  top: 105%;
-  left: -0.3%;
+  width: calc(100% + 4px);
+  top: 100%;
+  left: -2px;
 }
 
 .submenu__item {
@@ -41,6 +41,7 @@
   border: 2px solid purple;
   background-color: rgb(218, 84, 218);
   cursor: pointer;
-  width: 100%;
+  width: calc(100% + 4px);
   position: relative;
+  left: -2px;
 }
