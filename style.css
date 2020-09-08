@@ -20,4 +20,27 @@
   background-color: rgb(218, 84, 218);
   cursor: pointer;
   width: 33%;
+  position: relative;
+}
+
+.submenu {
+  /* text-align: center; */
+  list-style-type: none;
+  position: absolute;
+  padding: 0;
+  border: 2px solid purple;
+  background-color: rgb(218, 84, 218);
+  cursor: pointer;
+  width: 101%;
+  top: 105%;
+  left: -0.3%;
+}
+
+.submenu__item {
+  padding: 5px;
+  border: 2px solid purple;
+  background-color: rgb(218, 84, 218);
+  cursor: pointer;
+  width: 100%;
+  position: relative;
 }
